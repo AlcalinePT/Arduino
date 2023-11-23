@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-23T10:25:20.657Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="tOxV8unHuRzt8XRO1XZc" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-23T10:33:10.229Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="GdULYFNeW35cG2fSsp9V" version="22.1.3" type="github">
   <diagram name="Page-1" id="olnZ3AJJxB-pWJDiA_Oj">
-    <mxGraphModel dx="1050" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,26 +16,88 @@
         <mxCell id="RcTNapuZ8bT-JetGRahN-2" value="configuration: &lt;br&gt;pin2 &amp;amp; pin3: input&lt;br&gt;pin 13: output&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="121" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RcTNapuZ8bT-JetGRahN-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RcTNapuZ8bT-JetGRahN-4" target="RcTNapuZ8bT-JetGRahN-7">
+        <mxCell id="RcTNapuZ8bT-JetGRahN-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RcTNapuZ8bT-JetGRahN-4" target="RcTNapuZ8bT-JetGRahN-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RcTNapuZ8bT-JetGRahN-4" value="initialisation:&amp;nbsp;&lt;br&gt;pin 13 = low" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="200" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RcTNapuZ8bT-JetGRahN-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RcTNapuZ8bT-JetGRahN-7">
+        <mxCell id="RcTNapuZ8bT-JetGRahN-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RcTNapuZ8bT-JetGRahN-7" target="RcTNapuZ8bT-JetGRahN-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RcTNapuZ8bT-JetGRahN-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RcTNapuZ8bT-JetGRahN-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="360" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="260" y="320" />
-              <mxPoint x="260" y="360" />
-            </Array>
+            <mxPoint x="140" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RcTNapuZ8bT-JetGRahN-7" value="pin 2 = H?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="280" width="80" height="80" as="geometry" />
+          <mxGeometry x="100" y="360" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RcTNapuZ8bT-JetGRahN-9" value="allumer LED&lt;br&gt;pin 12 = High" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="360" width="120" height="40" as="geometry" />
+        <mxCell id="RcTNapuZ8bT-JetGRahN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RcTNapuZ8bT-JetGRahN-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="305" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcTNapuZ8bT-JetGRahN-13" value="allumer LED&lt;br&gt;pin 13 = HIGH" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="460" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RcTNapuZ8bT-JetGRahN-18" value="oui" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RcTNapuZ8bT-JetGRahN-19" value="non" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RcTNapuZ8bT-JetGRahN-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RcTNapuZ8bT-JetGRahN-21" target="RcTNapuZ8bT-JetGRahN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RcTNapuZ8bT-JetGRahN-21" value="lire &amp;amp; sauvegarder état du pin 2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RcTNapuZ8bT-JetGRahN-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RcTNapuZ8bT-JetGRahN-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcTNapuZ8bT-JetGRahN-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RcTNapuZ8bT-JetGRahN-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcTNapuZ8bT-JetGRahN-26" value="pin 3 = H?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="680" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RcTNapuZ8bT-JetGRahN-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="340" as="targetPoint" />
+            <mxPoint x="305" y="830" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="305" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcTNapuZ8bT-JetGRahN-28" value="oui" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="690" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RcTNapuZ8bT-JetGRahN-29" value="non" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="750" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RcTNapuZ8bT-JetGRahN-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RcTNapuZ8bT-JetGRahN-31" target="RcTNapuZ8bT-JetGRahN-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RcTNapuZ8bT-JetGRahN-31" value="lire &amp;amp; sauvegarder état du pin 3" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RcTNapuZ8bT-JetGRahN-32" value="éteindre LED&lt;br&gt;pin 13 = Low" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="790" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RcTNapuZ8bT-JetGRahN-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="340" as="sourcePoint" />
+            <mxPoint x="140" y="340" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
