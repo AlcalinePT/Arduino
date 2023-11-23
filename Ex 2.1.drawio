@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-23T10:06:13.056Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="AmYG8MqdQKeetB0uC84-" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-23T10:25:20.657Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="tOxV8unHuRzt8XRO1XZc" version="22.1.3" type="github">
   <diagram name="Page-1" id="olnZ3AJJxB-pWJDiA_Oj">
     <mxGraphModel dx="1050" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,8 +16,26 @@
         <mxCell id="RcTNapuZ8bT-JetGRahN-2" value="configuration: &lt;br&gt;pin2 &amp;amp; pin3: input&lt;br&gt;pin 13: output&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="121" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="RcTNapuZ8bT-JetGRahN-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RcTNapuZ8bT-JetGRahN-4" target="RcTNapuZ8bT-JetGRahN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RcTNapuZ8bT-JetGRahN-4" value="initialisation:&amp;nbsp;&lt;br&gt;pin 13 = low" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RcTNapuZ8bT-JetGRahN-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RcTNapuZ8bT-JetGRahN-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="320" />
+              <mxPoint x="260" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcTNapuZ8bT-JetGRahN-7" value="pin 2 = H?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RcTNapuZ8bT-JetGRahN-9" value="allumer LED&lt;br&gt;pin 12 = High" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="360" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
