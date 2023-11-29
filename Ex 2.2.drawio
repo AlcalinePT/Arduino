@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-29T10:20:49.114Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="95Cpn6cDWO3b6ab3gV_Y" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-29T10:33:00.229Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="-gKzt92xEWUIMRCeia_i" version="22.1.4" type="github">
   <diagram name="Page-1" id="Mkso30scFpM5eTM2bm36">
     <mxGraphModel dx="1050" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -26,8 +26,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="170" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="180" y="640" />
-              <mxPoint x="31" y="640" />
+              <mxPoint x="180" y="660" />
+              <mxPoint x="31" y="660" />
               <mxPoint x="31" y="170" />
             </Array>
           </mxGeometry>
@@ -85,27 +85,30 @@
         <mxCell id="hsIVLaauy2yIHV9pE63g-14" value="pin 13 = low" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="480" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hsIVLaauy2yIHV9pE63g-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hsIVLaauy2yIHV9pE63g-15">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="640" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="360" y="640" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="hsIVLaauy2yIHV9pE63g-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hsIVLaauy2yIHV9pE63g-15" target="hsIVLaauy2yIHV9pE63g-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hsIVLaauy2yIHV9pE63g-15" value="LED = high" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="560" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hsIVLaauy2yIHV9pE63g-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hsIVLaauy2yIHV9pE63g-16">
+        <mxCell id="hsIVLaauy2yIHV9pE63g-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hsIVLaauy2yIHV9pE63g-16">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="360" y="640" as="targetPoint" />
+            <mxPoint x="360" y="620" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="510" y="640" />
+              <mxPoint x="510" y="620" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="hsIVLaauy2yIHV9pE63g-16" value="LED = low" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hsIVLaauy2yIHV9pE63g-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hsIVLaauy2yIHV9pE63g-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hsIVLaauy2yIHV9pE63g-25" value="pause: 200ms&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="640" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
